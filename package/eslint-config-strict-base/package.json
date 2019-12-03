@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "An shareable strict config for eslint",
   "author": "maqiang1816@foxmail.com",
-  "private": false,
   "license": "ISC",
   "main": "index.js",
   "files": [
