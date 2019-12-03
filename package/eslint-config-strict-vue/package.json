@@ -1,6 +1,6 @@
 {
   "name": "@xmgh/eslint-config-strict-vue",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "An shareable strict config for eslint",
   "author": "maqiang1816@foxmail.com",
   "license": "ISC",
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "2.18.2"
   },
   "dependencies": {
-    "@xmgh/eslint-config-strict-base": "1.0.1",
+    "@xmgh/eslint-config-strict-base": "1.1.1",
     "eslint-plugin-vue": "5.2.3",
     "vue-eslint-parser": "6.0.4"
   },

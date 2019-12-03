@@ -13,7 +13,7 @@
 通过如下命令安装配置包
 
 ```bash
-yarn add -D @xmgh/eslint-config-strict-vue@1.1.0 eslint@5.16.0 eslint-plugin-import@2.18.2
+yarn add -D @xmgh/eslint-config-strict-vue@1.1.1 eslint@5.16.0 eslint-plugin-import@2.18.2
 ```
 
 如果是webpack工程，需另行安装 `eslint-import-resolver-webpack` 依赖，执行如下命令即可：
