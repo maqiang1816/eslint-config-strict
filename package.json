@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-strict",
+  "description": "An shareable strict config for eslint",
+  "author": "maqiang1816@foxmail.com",
+  "license": "MIT",
+  "scripts": {
+    "lint-staged": "lint-staged",
+    "eslint:fix": "eslint --ext .js rules --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "confusing-browser-globals": "1.0.9",
+    "object.assign": "4.1.0",
+    "object.entries": "1.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "babel-eslint": "10.0.3",
+    "eslint": "5.16.0",
+    "eslint-plugin-es": "2.0.0",
+    "eslint-plugin-eslint-comments": "3.1.2",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-sonarjs": "0.4.0",
+    "eslint-plugin-unicorn": "9.1.1",
+    "eslint-plugin-vue": "5.2.3",
+    "husky": "3.0.7",
+    "lint-staged": "9.4.0",
+    "vue-eslint-parser": "6.0.4"
+  },
+  "engines": {
+    "node": ">= 10",
+    "npm": ">=6"
+  }
+}
